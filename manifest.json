@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Phishing URL Checker",
+  "version": "1.0",
+  "description": "Checks how likely the current URL is phishing.",
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "logo.jpg"
+    }
+  },
+  "host_permissions": ["<all_urls>"]
+}
