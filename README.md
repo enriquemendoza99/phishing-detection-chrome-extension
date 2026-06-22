@@ -168,7 +168,3 @@ than an occasional false alarm.
 - Google Chrome Extension Documentation
 - Flask and scikit-learn documentation
 - MDN Web Docs (CORS)
-
-## Note
-Originally developed as a team project exploring practical machine
-learning applications in cybersecurity.
