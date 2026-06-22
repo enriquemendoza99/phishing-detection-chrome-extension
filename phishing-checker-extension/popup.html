@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phishing Check</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 15px;
+      width: 250px;
+      text-align: center;
+    }
+
+    #resultBox {
+      margin-top: 15px;
+      padding: 12px;
+      border-radius: 10px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .legit {
+      background-color: #4CAF50; /* Green */
+    }
+
+    .phishing {
+      background-color: #f44336; /* Red */
+    }
+
+    button {
+      padding: 8px 16px;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <button id="checkBtn">Check URL</button>
+  <div id="resultBox" style="display:none;"></div>
+  <div id="scoreContainer" style="display: none; margin-top: 10px;">
+  <div id="scoreLabel">Phishing Score:</div>
+  <div style="background-color: #ccc; border-radius: 5px; overflow: hidden;">
+    <div id="scoreBar" style="width: 0%; height: 15px; background-color: green;"></div>
+  </div>
+</div>
+  <script src="popup.js"></script>
+</body>
+</html>
